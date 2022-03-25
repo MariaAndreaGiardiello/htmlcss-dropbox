@@ -3,4 +3,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
+}
+
+/*COMMONS*/
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+.container-small {
+    max-width: 780px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*HEADER*/
+header {
+    background-color: #255EE8;
+}
+
+.header-top-sx {
+    padding: 10px 0;
+    font-size: 0;
+    text-align: right;
+}
+
+.logo, .main-nav-sx, .main-nav-dx, .login {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo, .login {
+    width: 15%;
+}
+.login {
+    text-align: right;
+}
+
+.logo {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.main-nav-sx .main-nav-dx {
+    text-align: center;
+    font-size: 16px;
+}
+.main-nav-dx .main-nav-sx .logo {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a{
+    display: inline-block;
+}
+
+.header-hero {
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
