@@ -11,7 +11,7 @@
     margin: auto;
 }
 .container-small {
-    max-width: 780px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -27,89 +27,213 @@ body{
 
 /*HEADER*/
 
-.main-nav ul li a .main-button{
-    display: inline-block;
-}
-
-.logo, .main-nav, .main-button {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.logo{
-    text-align: left;
-    padding: 10px 10px 10px 10px;
-}
-.main-button {
-    background-color: blue;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-}
-
-.main-nav {
-    font-size: 16px;
-    width: 100%;
-}
-.main-nav ul li {
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.link-sx{
-    text-align: left;
-    display: inline-block;
-}
-
-.link-dx{
-    text-align: right;
-    display: inline;
-    margin-left: 250px;
-}
-
-    /* HERO */
-    .hero{
-        background-color: rgb(102, 166, 226);
-        float: left;
-        width: 100%;
+    .main-nav ul li a .main-button{
+        display: inline-block;
     }
 
-    h1{
+    .logo, .main-nav, .main-button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .logo{
         text-align: left;
-        margin-top: 20px;
-        font-size: 45px;
-        margin-left: 50px;
+        padding: 10px 10px 10px 10px;
     }
-
-    .description{
-        margin-top: 50px;
-        margin-left: 50px;
-    }
-
-    .hero-button{
+    .main-button {
         background-color: blue;
         color: white;
-        padding: 10px 10px;
+        padding: 5px 5px;
         text-align: center;
         vertical-align: middle;
         text-decoration: none;
-        display: inline-table;
-        margin-top: 30px;
-        margin-left: 50px;
     }
 
-    .text-under-button{
+    .main-nav {
+        font-size: 16px;
+        width: 100%;
+    }
+    .main-nav ul li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .link-sx{
+        text-align: left;
+        display: inline-block;
+    }
+
+    .link-dx{
+        text-align: right;
+        display: inline;
+        margin-left: 250px;
+    }
+
+        /* HERO */
+        .hero{
+            background-color: rgb(102, 166, 226);
+            float: left;
+            width: 100%;
+        }
+
+        h1{
+            text-align: left;
+            margin-top: 20px;
+            font-size: 50px;
+            margin-left: 50px;
+        }
+
+        .description{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        .hero-button{
+            background-color: blue;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            vertical-align: middle;
+            text-decoration: none;
+            display: inline-table;
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        .text-under-button{
+            margin-left: 30px;
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+
+        .fa-solid, .fa-arrow-down{
+            margin-top: 30px;
+            font-size: 40px;
+            margin-left: 50px;
+            margin-bottom: 120px;
+        }
+        /* FINE HERO */
+
+/* FINE HEADER */
+
+/* MAIN */
+    /* COLONNA SX */
+    .colonna_sx {
+        border: 1px solid grey;
+        float: left;
+        width: 30%;
+        min-height: 300px;
+        margin: 20px auto;
+    }
+
+    .col-dx-title{
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .professional{
+        font-size: 20px;
         margin-left: 30px;
-        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .price{
+        margin-left: 30px;
+    }
+
+    .price-period{
+        margin-left: 30px;
+        color: gray;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .user{
+        margin-left: 30px;
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+    .storage-space{
+        margin-left: 30px;
+        font-size: 14px;
         margin-top: 15px;
     }
 
-    .fa-solid, .fa-arrow-down{
-        margin-top: 30px;
-        font-size: 40px;
-        margin-left: 50px;
-        margin-bottom: 120px;
+    .function, .fa-fa-pencil{
+        margin-left: 30px;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 50px;
     }
-/* FINE HEADER */
+
+    .shop-now-button{
+        background-color: blue;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: white;
+        margin-left: 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .shop-now-link{
+        margin-left: 30px;
+        font-size: 14px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .highlights{
+        margin-left: 30px;
+        margin-top: 20px;        
+    }
+
+    .list{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .list-last{
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 150px;
+    }
+    /* FINE COLONNA SX */
+
+.colonna_dx {
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    margin: 20px auto;
+}
+
+
+
+.colonna_centrale {
+    border: 1px solid grey;
+    float: left;
+    width: calc(40% - 40px);
+    min-height: 300px;
+    margin: 20px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.checkbox-mensile{
+    margin-right: 15px;
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.checkbox-annuale{
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 18px;
+}
