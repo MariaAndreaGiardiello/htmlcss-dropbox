@@ -7,7 +7,7 @@
 
 /*COMMONS*/
 .container {
-    max-width: 1180px;
+    width: 1280px;
     margin: auto;
 }
 .container-small {
@@ -21,51 +21,95 @@
     clear: both;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*HEADER*/
-header {
-    background-color: #255EE8;
+
+.main-nav ul li a .main-button{
+    display: inline-block;
 }
 
-.header-top-sx {
-    padding: 10px 0;
-    font-size: 0;
-    text-align: right;
-}
-
-.logo, .main-nav-sx, .main-nav-dx, .login {
+.logo, .main-nav, .main-button {
     display: inline-block;
     vertical-align: middle;
 }
 
-.logo, .login {
-    width: 15%;
-}
-.login {
-    text-align: right;
-}
-
-.logo {
+.logo{
     text-align: left;
-    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.main-button {
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
 }
 
-.main-nav-sx .main-nav-dx {
-    text-align: center;
+.main-nav {
     font-size: 16px;
+    width: 100%;
 }
-.main-nav-dx .main-nav-sx .logo {
+.main-nav ul li {
     display: inline-block;
     padding: 0 10px;
 }
 
-a{
+.link-sx{
+    text-align: left;
     display: inline-block;
 }
 
-.header-hero {
-    background-image: url(../img/jumbo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 150px 0;
+.link-dx{
+    text-align: right;
+    display: inline;
+    margin-left: 250px;
 }
+
+    /* HERO */
+    .hero{
+        background-color: rgb(102, 166, 226);
+        float: left;
+        width: 100%;
+    }
+
+    h1{
+        text-align: left;
+        margin-top: 20px;
+        font-size: 45px;
+        margin-left: 50px;
+    }
+
+    .description{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .hero-button{
+        background-color: blue;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        vertical-align: middle;
+        text-decoration: none;
+        display: inline-table;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .text-under-button{
+        margin-left: 30px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+
+    .fa-solid, .fa-arrow-down{
+        margin-top: 30px;
+        font-size: 40px;
+        margin-left: 50px;
+        margin-bottom: 120px;
+    }
+/* FINE HEADER */
