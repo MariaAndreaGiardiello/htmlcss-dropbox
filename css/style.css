@@ -107,10 +107,7 @@ body{
         }
 
         .fa-solid, .fa-arrow-down{
-            margin-top: 30px;
             font-size: 40px;
-            margin-left: 50px;
-            margin-bottom: 120px;
         }
         /* FINE HERO */
 
@@ -119,23 +116,23 @@ body{
 /* MAIN */
     /* COLONNA SX */
     .colonna_sx {
-        border: 1px solid grey;
+        border: 1px solid lightgrey;
         float: left;
         width: 30%;
-        min-height: 300px;
+        min-height: 800px;
         margin: 20px auto;
     }
 
-    .col-dx-title{
+    .col-dx-title, .col-sx-title, .col-centrale-title{
         text-align: center;
         padding: 10px 0px;
     }
 
     .professional{
-        font-size: 20px;
+        font-size: 17px;
         margin-left: 30px;
         margin-top: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 
     .price{
@@ -146,26 +143,26 @@ body{
         margin-left: 30px;
         color: gray;
         margin-top: 5px;
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .user{
         margin-left: 30px;
-        margin-top: 50px;
-        font-size: 14px;
+        margin-top: 30px;
+        font-size: 13px;
     }
 
     .storage-space{
         margin-left: 30px;
-        font-size: 14px;
-        margin-top: 15px;
+        font-size: 13px;
+        margin-top: 10px;
     }
 
     .function, .fa-fa-pencil{
         margin-left: 30px;
-        font-size: 14px;
-        margin-top: 15px;
-        margin-bottom: 50px;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
     .shop-now-button{
@@ -180,43 +177,51 @@ body{
 
     .shop-now-link{
         margin-left: 30px;
-        font-size: 14px;
-        margin-top: 40px;
-        margin-bottom: 30px;
+        font-size: 13px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .highlights{
         margin-left: 30px;
-        margin-top: 20px;        
+        margin-top: 20px;
+        font-size: 15px;        
     }
 
     .list{
         margin-left: 30px;
-        margin-top: 15px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 20px;
     }
 
-    .list-last{
-        margin-left: 30px;
-        margin-top: 15px;
-        margin-bottom: 150px;
+
+    .check{
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(0, 174, 255);
+    }
+
+    .fa-solid, .fa-pencil{
+        font-size: 14px;
+        margin: 0 0;
     }
     /* FINE COLONNA SX */
 
 .colonna_dx {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     float: left;
     width: 30%;
-    min-height: 300px;
+    min-height: 800px;
     margin: 20px auto;
 }
 
 
 
 .colonna_centrale {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     float: left;
     width: calc(40% - 40px);
-    min-height: 300px;
+    min-height: 800px;
     margin: 20px;
 }
 
@@ -236,4 +241,83 @@ h2{
     margin-top: 30px;
     display: inline-block;
     font-size: 18px;
+}
+
+.enterprise{
+    background-color: purple;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.team{
+    text-align: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+
+h3{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.enterprise-button{
+    background-color: blue;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 700px;
+}
+
+.enterprise-sub{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;        
+}
+
+.enterprise-soluction{
+    font-size: 11px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.enterprise-box{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.partner{
+    float: left;
+    width: calc(60% - 30px);
+    min-height: 500px;
+    margin: 20px 10px;
+}
+
+.text-partner{
+    float: left;
+    width: calc(40% - 30px);
+    min-height: 800px;
+    margin: 20px 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.partner-paragraph{
+    font-size: 12px;
+    line-height: 20px;
+    padding: 25px 0;
+}
+
+.partner-button{
+    border: 1px solid black;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
 }
