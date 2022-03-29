@@ -114,7 +114,7 @@ body{
 /* FINE HEADER */
 
 /* MAIN */
-    /* COLONNA SX */
+    /* COLONNA SX-DX-CENTRALE */
     .colonna_sx {
         border: 1px solid lightgrey;
         float: left;
@@ -204,302 +204,315 @@ body{
         font-size: 14px;
         margin: 0 0;
     }
-    /* FINE COLONNA SX */
+    
+    .colonna_dx {
+        border: 1px solid lightgrey;
+        float: left;
+        width: 30%;
+        margin: 20px auto;
+    }
+    
+    .colonna_centrale {
+        border: 1px solid lightgrey;
+        float: left;
+        width: calc(40% - 40px);
+        margin: 20px;
+    }
 
-.colonna_dx {
-    border: 1px solid lightgrey;
-    float: left;
-    width: 30%;
-    margin: 20px auto;
-}
 
+    .dropbox-title{
+        font-size: 30px;
+        margin-top: 150px;
+    }
 
+    .checkbox-mensile{
+        margin-right: 15px;
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 18px;
+    }
 
-.colonna_centrale {
-    border: 1px solid lightgrey;
-    float: left;
-    width: calc(40% - 40px);
-    margin: 20px;
-}
+    .checkbox-annuale{
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 18px;
+    }
+    /* FINE COLONNA SX-DX-CENTRALE*/
 
-.dropbox-title{
-    font-size: 30px;
-    margin-top: 150px;
-}
+    /* TEAM + SEZIONE "ENTERPRISE"*/
+    .enterprise{
+        background-color: purple;
+        height: 60px;
+        margin-top: 20px;
+    }
 
-.checkbox-mensile{
-    margin-right: 15px;
-    display: inline-block;
-    margin-top: 30px;
-    font-size: 18px;
-}
+    .team{
+        text-align: center;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgrey;
+        width: 100%;
+        padding: 5px 0;
+        margin-bottom: 30px;
+    }
 
-.checkbox-annuale{
-    margin-top: 30px;
-    display: inline-block;
-    font-size: 18px;
-}
+    h3{
+        display: inline-block;
+        vertical-align: middle;
+    }
 
-.enterprise{
-    background-color: purple;
-    height: 60px;
-    margin-top: 20px;
-}
+    .enterprise-button{
+        background-color: blue;
+        padding: 10px 30px;
+        text-decoration: none;
+        color: white;
+        margin-left: 30px;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 700px;
+    }
 
-.team{
-    text-align: center;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgrey;
-    width: 100%;
-    padding: 5px 0;
-    margin-bottom: 30px;
-}
+    .enterprise-sub{
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 10px;        
+    }
 
-h3{
-    display: inline-block;
-    vertical-align: middle;
-}
+    .enterprise-soluction{
+        font-size: 11px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
 
-.enterprise-button{
-    background-color: blue;
-    padding: 10px 30px;
-    text-decoration: none;
-    color: white;
-    margin-left: 30px;
-    font-size: 12px;
-    text-align: center;
-    margin-left: 700px;
-}
+    .enterprise-box{
+        border-bottom: 1px solid lightgray;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    /*FINE TEAM + SEZIONE ENTERPRISE*/
+    
+    /*SEZIONE PARTNER + FOTO*/
+    .partner{
+        float: left;
+        width: calc(60% - 30px);
+        min-height: 500px;
+        margin: 20px 10px;
+    }
 
-.enterprise-sub{
-    margin-top: 10px;
-    font-size: 12px;
-    margin-bottom: 10px;        
-}
+    .text-partner{
+        float: left;
+        width: calc(40% - 30px);
+        margin: 20px 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
 
-.enterprise-soluction{
-    font-size: 11px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-}
+    .partner-paragraph{
+        font-size: 12px;
+        line-height: 20px;
+        padding: 25px 0;
+    }
 
-.enterprise-box{
-    border-bottom: 1px solid lightgray;
-    width: 100%;
-    margin-bottom: 100px;
-}
+    .partner-button{
+        border: 1px solid black;
+        padding: 5px 15px;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    /* FINE SEZIONE PARTNER + FOTO*/
 
-.partner{
-    float: left;
-    width: calc(60% - 30px);
-    min-height: 500px;
-    margin: 20px 10px;
-}
+    /*COLONNE + IMMAGINI DROPBOX BUSINESS*/
+    .img-dx-sx{
+        width: 250px;
+        height: 200px;
+        margin-left: 25px;
+        vertical-align: middle;
+    }
 
-.text-partner{
-    float: left;
-    width: calc(40% - 30px);
-    margin: 20px 10px;
-    padding-left: 10px;
-    padding-top: 20px;
-}
+    .img-middle{
+        width: 250px;
+        height: 200px;
+        margin-left: 30px;
+        vertical-align: middle;
+    }
 
-.partner-paragraph{
-    font-size: 12px;
-    line-height: 20px;
-    padding: 25px 0;
-}
+    .dropbox-business-text{
+        font-size: 13px;
+        padding-top: 15px;
+    }
 
-.partner-button{
-    border: 1px solid black;
-    padding: 5px 15px;
-    text-decoration: none;
-    color: black;
-    font-size: 13px;
-}
+    .colonna_sx_small {
+        float: left;
+        width: 30%;
+        margin: 20px auto;
+    }
 
-.img-dx-sx{
-    width: 250px;
-    height: 200px;
-    margin-left: 25px;
-    vertical-align: middle;
-}
+    .colonna_dx_small {
+        float: left;
+        width: 30%;
+        margin: 20px auto;
+    }
 
-.img-middle{
-    width: 250px;
-    height: 200px;
-    margin-left: 30px;
-    vertical-align: middle;
-}
+    .colonna_centrale_small {
+        float: left;
+        width: calc(40% - 40px);
+        margin: 20px;
+    }
 
-.dropbox-business-text{
-    font-size: 13px;
-    padding-top: 15px;
-}
+    /* FINE COLONNE + IMMAGINI DROPBOX BUSINESS*/
+    h4{
+        padding-top: 15px;
+        vertical-align: middle;
+    }
 
-.colonna_sx_small {
-    float: left;
-    width: 30%;
-    margin: 20px auto;
-}
+    .colonna_sx_big{
+        float: left;
+        width: 30%;
+        margin: 20px auto;
+    }
 
-.colonna_dx_small {
-    float: left;
-    width: 30%;
-    margin: 20px auto;
-}
+    .colonna_dx_big {
+        float: left;
+        width: 30%;
+        margin: 20px auto;
+    }
 
-.colonna_centrale_small {
-    float: left;
-    width: calc(40% - 40px);
-    margin: 20px;
-}
+    .colonna_centrale_big {
+        float: left;
+        width: calc(40% - 40px);
+        margin-top: 20px;
+        height: 378px;
+        background-color: lightgray;
+    }
+    /* FINE COLONNE + IMMAGINI DROPBOX BUSINESS*/
 
-h4{
-    padding-top: 15px;
-    vertical-align: middle;
-}
+    /*SEZIONE LOGHI*/
+    .logo-box-aqua{
+        width: 50%;
+        height: 189px;
+        background-color: rgb(109, 223, 185);
+        float: left;
+    }
+    .designit{
+        width: 80px;
+        height: 80px;
+        margin-left: 55px;
+        margin-top: 55px;
+        float: left;
+    }
 
-.colonna_sx_big{
-    float: left;
-    width: 30%;
-    margin: 20px auto;
-}
+    .logo-box-bordeaux{
+        width: 50%;
+        height: 189px;
+        background-color: brown;
+        float: left;
+    }
 
-.colonna_dx_big {
-    float: left;
-    width: 30%;
-    margin: 20px auto;
-}
+    .arizona-uni{
+        width: 80px;
+        height: 80px;
+        margin-left: 55px;
+        margin-top: 55px;
+        float: left;
+    }
 
-.colonna_centrale_big {
-    float: left;
-    width: calc(40% - 40px);
-    margin-top: 20px;
-    height: 378px;
-    background-color: lightgray;
-}
+    .logo-box-azure{
+        width: 50%;
+        height: 189px;
+        background-color: rgb(0, 153, 255);
+        float: left;
+    }
 
-.logo-box-aqua{
-    width: 50%;
-    height: 189px;
-    background-color: rgb(109, 223, 185);
-    float: left;
-}
-.designit{
-    width: 80px;
-    height: 80px;
-    margin-left: 55px;
-    margin-top: 55px;
-    float: left;
-}
+    .florida{
+        width: 80px;
+        height: 80px;
+        margin-left: 55px;
+        margin-top: 55px;
+        float: left;
+    }
 
-.logo-box-bordeaux{
-    width: 50%;
-    height: 189px;
-    background-color: brown;
-    float: left;
-}
+    .logo-box-red{
+        width: 50%;
+        height: 189px;
+        background-color: red;
+        float: left;
+    }
 
-.arizona-uni{
-    width: 80px;
-    height: 80px;
-    margin-left: 55px;
-    margin-top: 55px;
-    float: left;
-}
+    .topps{
+        width: 80px;
+        height: 80px;
+        margin-left: 55px;
+        margin-top: 55px;
+        float: left;
+    }
 
-.logo-box-azure{
-    width: 50%;
-    height: 189px;
-    background-color: rgb(0, 153, 255);
-    float: left;
-}
+    .designit-title{
+        width: 100px;
+        height: 30px;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
 
-.florida{
-    width: 80px;
-    height: 80px;
-    margin-left: 55px;
-    margin-top: 55px;
-    float: left;
-}
+    .designit-text{
+        font-size: 13px;
+        margin-top: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
 
-.logo-box-red{
-    width: 50%;
-    height: 189px;
-    background-color: red;
-    float: left;
-}
+    .author-cit{
+        font-size: 13px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+    /* FINE SEZIONE LOGHI*/
 
-.topps{
-    width: 80px;
-    height: 80px;
-    margin-left: 55px;
-    margin-top: 55px;
-    float: left;
-}
+    /*CONTAINER GRIGIO POST LOGHI*/
+    .grey-container{
+        background-color: lightgray;
+        width: 100%;
+        height: 180px;
+    }
 
-.designit-title{
-    width: 100px;
-    height: 30px;
-    margin-top: 25px;
-    margin-left: 20px;
-}
+    .grey-container-title{
+        margin: 50px 0;
+        font-size: 20px;
+    }
 
-.designit-text{
-    font-size: 13px;
-    margin-top: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-}
+    .grey-container-button{
+        background-color: white;
+        text-decoration: none;
+        font-size: 11px;
+        color: black;
+        padding: 5px 15px;
+        margin-left: 200px;
+    }
+    /* FINE CONTAINER GRIGIO POST LOGHI*/
 
-.author-cit{
-    font-size: 13px;
-    padding-left: 20px;
-    padding-bottom: 30px;
-}
+    /*SEZIONE DOMANDE*/
+    .question-title{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
 
-.grey-container{
-    background-color: lightgray;
-    width: 100%;
-    height: 180px;
-}
+    .question{
+        border-top: 1px solid black;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 
-.grey-container-title{
-    margin: 50px 200px;
-    font-size: 20px;
-}
+    .last-question{
+        border-top: 1px solid black;
+        padding-top: 15px;
+        border-bottom: 1px solid black;
+        padding-bottom: 15px;
+        margin-bottom: 50px;
+    }
 
-.grey-container-button{
-    background-color: white;
-    text-decoration: none;
-    font-size: 11px;
-    color: black;
-    padding: 5px 15px;
-    margin-left: 200px;
-}
-
-.question-title{
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-.question{
-    border-top: 1px solid black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.last-question{
-    border-top: 1px solid black;
-    padding-top: 15px;
-    border-bottom: 1px solid black;
-    padding-bottom: 15px;
-    margin-bottom: 50px;
-}
-
-.fa-solid, .fa-angle-down{
-    margin-left: 200px;
-}
+    .fa-solid, .fa-angle-down{
+        margin-left: 200px;
+    }
+    /* FINE SEZIONE DOMANDE*/
+/* FINE MAIN*/
