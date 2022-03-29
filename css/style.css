@@ -119,7 +119,6 @@ body{
         border: 1px solid lightgrey;
         float: left;
         width: 30%;
-        min-height: 800px;
         margin: 20px auto;
     }
 
@@ -211,7 +210,6 @@ body{
     border: 1px solid lightgrey;
     float: left;
     width: 30%;
-    min-height: 800px;
     margin: 20px auto;
 }
 
@@ -221,12 +219,11 @@ body{
     border: 1px solid lightgrey;
     float: left;
     width: calc(40% - 40px);
-    min-height: 800px;
     margin: 20px;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 150px;
 }
 
@@ -289,7 +286,7 @@ h3{
 .enterprise-box{
     border-bottom: 1px solid lightgray;
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .partner{
@@ -302,7 +299,6 @@ h3{
 .text-partner{
     float: left;
     width: calc(40% - 30px);
-    min-height: 800px;
     margin: 20px 10px;
     padding-left: 10px;
     padding-top: 20px;
@@ -320,4 +316,90 @@ h3{
     text-decoration: none;
     color: black;
     font-size: 13px;
+}
+
+.img-dx-sx{
+    width: 250px;
+    height: 200px;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.img-middle{
+    width: 250px;
+    height: 200px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.dropbox-business-text{
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.colonna_sx_small {
+    float: left;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.colonna_dx_small {
+    float: left;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.colonna_centrale_small {
+    float: left;
+    width: calc(40% - 40px);
+    margin: 20px;
+}
+
+h4{
+    padding-top: 15px;
+    vertical-align: middle;
+}
+
+.colonna_sx_big{
+    float: left;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.colonna_dx_big {
+    float: left;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.colonna_centrale_big {
+    float: left;
+    width: calc(40% - 40px);
+    margin: 20px;
+}
+
+.logo-box-aqua{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(109, 223, 185);
+}
+.designit{
+    width: 80px;
+    height: 80px;
+    margin-left: 55px;
+    margin-top: 55px;
+    display: inline-block;
+}
+
+.logo-box-bordeaux{
+    width: 180px;
+    height: 180px;
+    background-color: brown;
+}
+
+.arizona-uni{
+    width: 80px;
+    height: 80px;
+    margin-left: 55px;
+    margin-top: 55px;
 }
